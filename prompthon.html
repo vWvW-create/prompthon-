@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Fake Profile Detector</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🤖 Fake Profile Detector</h1>
+
+<label>Social Media Bio</label>
+<textarea id="bio"
+placeholder="Paste profile bio here..."></textarea>
+
+<label>Sample Posts / Captions</label>
+<textarea id="posts"
+placeholder="Paste posts or captions here..."></textarea>
+
+<button onclick="analyzeProfile()">
+Analyze Profile
+</button>
+
+<div id="result" class="hidden">
+
+<h2>Result</h2>
+
+<p id="score"></p>
+
+<h3>Analysis Explanation</h3>
+
+<ul id="explanation"></ul>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
